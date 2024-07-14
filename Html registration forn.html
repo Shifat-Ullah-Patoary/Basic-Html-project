@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>form</title>
+</head>
+
+<body>
+    <h2>registration form</h2>
+    <form>
+        <!--fullname-->
+        <div>
+            <label for="FullName">FirstName:</label>
+            <input type="text" name="firstname" id="firstname" required>
+            
+            <span>
+                <label for="LastName">LastName</label>
+                <input type="text" placeholder="Last name" name="lastname" id="lastname">
+            </span>
+            
+
+        </div> <br>
+        <!--email-->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+        </div> <br>
+        <!--passwort-->
+        <div>
+            <label for="Password">Password:</label>
+            <input type="password" name="password" id="password">
+        </div> <br>
+        <!--date of birth-->
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob">
+        </div> <br>
+        <!--choose photo-->
+        <div>
+            <label for="Photo">Choose Your Photo:</label>
+            <input type="file" name="photo" id="photo">
+        </div> <br>
+          <!--gender-->
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="gender" value="male">Male
+            <input type="radio" name="gender" id="gender" value="female">Female
+        </div> <br>
+         <!--religion-->
+
+        <div>
+            <label for="religion">Religion</label>
+            <input type="checkbox" name="c1" id="muslim" value="islam">Islam
+            <input type="checkbox" name="c2" id="hindu" value="hindu">Hindu
+            <input type="checkbox" name="c3" id="cristian" value="cristian">Cristian
+        </div> <br>
+          <!--select Department-->
+        <div>
+            <label for="department">Department</label>
+            <select name="department" id="department">
+                <option value="CSE" >CSE</option>
+                <option value="EEE"selected>EEE</option>
+                 <option value="Civil">CIVIL</option>
+            </select>
+        </div> <br>
+              <!--message-->
+        <div>
+            <label for="message">Message:</label> <br>
+            <textarea cols="50" rows="20"></textarea>
+        </div> 
+                <!--submit button-->
+        <div>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </div>
+        
+
+    </form>
+</body>
+
+</html>
